@@ -122,6 +122,7 @@ header{
         justify-content: space-around;
         .menu{
             /* width: 50%; */
+            z-index: 99999;
             height: 100%;
             & nav{
                 width: 100%;
@@ -153,7 +154,7 @@ header{
                                 background-color: yellowgreen;
                                 position: absolute;
                                 top: 160px;
-                                transition: 300ms;
+                                transition: 500ms;
                                 
                                 & ul{
                                     width: 17%;
@@ -182,7 +183,7 @@ header{
                                             background-color: white;
                                             color: crimson; 
                                             fill: crimson;
-                                            z-index: 99999;
+                                            
                                         }
                                         .subItems{
                                             width: 83%;
