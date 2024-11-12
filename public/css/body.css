@@ -165,6 +165,8 @@
                     }
                 }
                 .slider-Items{
+                    width: 160px;
+                    height: 254px;
                     display: flex;
                     flex-direction: column;
                     align-items: center;
@@ -173,8 +175,14 @@
                     & img{
                         width: 150px;
                         height: 150px;
-                        margin-bottom: 30px;
+                        margin-bottom: 20px;
                         object-fit: cover;
+                    }
+                    .text-under-img{
+                        width: 144px;
+                        height: 40px;
+                        font-size: 12px;
+                        color: #62666d;
                     }
                     .middleTexts{
                         display: flex;
@@ -185,7 +193,6 @@
                             font-size: 16px;
                             width: 73px;
                             height: 33px;
- 
                         }
                         .discount{
                             width: 34px;
@@ -196,10 +203,15 @@
                             margin-left: 20px;
                             font-size: 12px;
                         }
-
                     }
-                    
-
+                    .old-price-span{
+                        width: 144px ;
+                        height: 21px ;
+                        font-size: 12px !important;
+                        margin-left: -50px;
+                        color:#c0c2c5; 
+                        text-decoration: line-through;  
+                    }
                 }
               }
 
