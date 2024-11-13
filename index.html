@@ -816,39 +816,675 @@
             </nav>
           </div>
           <div class="city">
-            <svg
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              xmlns="http://www.w3.org/2000/svg"
-              style="
-                width: 20px;
-                height: 20px;
-                fill: var(--color-icon-high-emphasis);
-              "
-              width="24"
-              height="24"
-            >
-              <defs>
-                <symbol
-                  id="pin"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M4 9.611C4 5.391 7.59 2 12 2s8 3.39 8 7.611c0 2.818-1.425 5.518-3.768 8.034a23.496 23.496 0 01-2.514 2.322c-.517.413-.923.706-1.166.867L12 21.2l-.552-.366c-.243-.16-.65-.454-1.166-.867a23.499 23.499 0 01-2.514-2.322C5.425 15.129 4 12.428 4 9.61zm8.47 8.794c.784-.627 1.569-1.34 2.298-2.124C16.8 14.101 18 11.827 18 9.611 18 6.521 15.33 4 12 4S6 6.522 6 9.611c0 2.215 1.2 4.49 3.232 6.67A21.536 21.536 0 0012 18.769c.148-.111.305-.233.47-.364zM12 14a4.001 4.001 0 010-8 4.001 4.001 0 010 8zm0-2a2.001 2.001 0 000-4 2.001 2.001 0 000 4z"
-                    clip-rule="evenodd"
-                  ></path>
-                </symbol>
-              </defs>
-              <use xlink:href="#pin"></use>
-            </svg>
-            لطفا شهر خود را انتخاب کنید
+            <label for="city-box" class="city-label">
+              <svg
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns="http://www.w3.org/2000/svg"
+                style="
+                  width: 20px;
+                  height: 20px;
+                  fill: var(--color-icon-high-emphasis);
+                "
+                width="24"
+                height="24"
+              >
+                <defs>
+                  <symbol
+                    id="pin"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M4 9.611C4 5.391 7.59 2 12 2s8 3.39 8 7.611c0 2.818-1.425 5.518-3.768 8.034a23.496 23.496 0 01-2.514 2.322c-.517.413-.923.706-1.166.867L12 21.2l-.552-.366c-.243-.16-.65-.454-1.166-.867a23.499 23.499 0 01-2.514-2.322C5.425 15.129 4 12.428 4 9.61zm8.47 8.794c.784-.627 1.569-1.34 2.298-2.124C16.8 14.101 18 11.827 18 9.611 18 6.521 15.33 4 12 4S6 6.522 6 9.611c0 2.215 1.2 4.49 3.232 6.67A21.536 21.536 0 0012 18.769c.148-.111.305-.233.47-.364zM12 14a4.001 4.001 0 010-8 4.001 4.001 0 010 8zm0-2a2.001 2.001 0 000-4 2.001 2.001 0 000 4z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </symbol>
+                </defs>
+                <use xlink:href="#pin"></use>
+              </svg>
+              لطفا شهر خود را انتخاب کنید
+            </label>
+          </div>
+      
+          <!-- Modal Box -->
+          <input type="checkbox" id="city-box" class="checkbox-box" />
+          <div class="box">
+            <div class="box-content">
+              <div class="header">
+                <p>انتخاب شهر</p>
+                <label for="city-box" class="close-btn">&times;</label>
+              </div>
+              
+              <div class="city-list">
+                <ul>
+                  <li>
+                    تهران
+      
+                    <svg
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="
+                        width: 24px;
+                        height: 24px;
+                        fill: var(--color-icon-high-emphasis);
+                      "
+                      width="24"
+                      height="24"
+                    >
+                      <defs>
+                        <symbol
+                          id="chevronLeft"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                          ></path>
+                        </symbol>
+                      </defs>
+                      <use xlink:href="#chevronLeft"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    تهران
+      
+                    <svg
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="
+                        width: 24px;
+                        height: 24px;
+                        fill: var(--color-icon-high-emphasis);
+                      "
+                      width="24"
+                      height="24"
+                    >
+                      <defs>
+                        <symbol
+                          id="chevronLeft"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                          ></path>
+                        </symbol>
+                      </defs>
+                      <use xlink:href="#chevronLeft"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    تهران
+      
+                    <svg
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="
+                        width: 24px;
+                        height: 24px;
+                        fill: var(--color-icon-high-emphasis);
+                      "
+                      width="24"
+                      height="24"
+                    >
+                      <defs>
+                        <symbol
+                          id="chevronLeft"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                          ></path>
+                        </symbol>
+                      </defs>
+                      <use xlink:href="#chevronLeft"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    تهران
+      
+                    <svg
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="
+                        width: 24px;
+                        height: 24px;
+                        fill: var(--color-icon-high-emphasis);
+                      "
+                      width="24"
+                      height="24"
+                    >
+                      <defs>
+                        <symbol
+                          id="chevronLeft"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                          ></path>
+                        </symbol>
+                      </defs>
+                      <use xlink:href="#chevronLeft"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    تهران
+      
+                    <svg
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="
+                        width: 24px;
+                        height: 24px;
+                        fill: var(--color-icon-high-emphasis);
+                      "
+                      width="24"
+                      height="24"
+                    >
+                      <defs>
+                        <symbol
+                          id="chevronLeft"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                          ></path>
+                        </symbol>
+                      </defs>
+                      <use xlink:href="#chevronLeft"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    تهران
+      
+                    <svg
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="
+                        width: 24px;
+                        height: 24px;
+                        fill: var(--color-icon-high-emphasis);
+                      "
+                      width="24"
+                      height="24"
+                    >
+                      <defs>
+                        <symbol
+                          id="chevronLeft"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                          ></path>
+                        </symbol>
+                      </defs>
+                      <use xlink:href="#chevronLeft"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    تهران
+      
+                    <svg
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="
+                        width: 24px;
+                        height: 24px;
+                        fill: var(--color-icon-high-emphasis);
+                      "
+                      width="24"
+                      height="24"
+                    >
+                      <defs>
+                        <symbol
+                          id="chevronLeft"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                          ></path>
+                        </symbol>
+                      </defs>
+                      <use xlink:href="#chevronLeft"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    تهران
+      
+                    <svg
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="
+                        width: 24px;
+                        height: 24px;
+                        fill: var(--color-icon-high-emphasis);
+                      "
+                      width="24"
+                      height="24"
+                    >
+                      <defs>
+                        <symbol
+                          id="chevronLeft"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                          ></path>
+                        </symbol>
+                      </defs>
+                      <use xlink:href="#chevronLeft"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    تهران
+      
+                    <svg
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="
+                        width: 24px;
+                        height: 24px;
+                        fill: var(--color-icon-high-emphasis);
+                      "
+                      width="24"
+                      height="24"
+                    >
+                      <defs>
+                        <symbol
+                          id="chevronLeft"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                          ></path>
+                        </symbol>
+                      </defs>
+                      <use xlink:href="#chevronLeft"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    تهران
+      
+                    <svg
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="
+                        width: 24px;
+                        height: 24px;
+                        fill: var(--color-icon-high-emphasis);
+                      "
+                      width="24"
+                      height="24"
+                    >
+                      <defs>
+                        <symbol
+                          id="chevronLeft"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                          ></path>
+                        </symbol>
+                      </defs>
+                      <use xlink:href="#chevronLeft"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    تهران
+      
+                    <svg
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="
+                        width: 24px;
+                        height: 24px;
+                        fill: var(--color-icon-high-emphasis);
+                      "
+                      width="24"
+                      height="24"
+                    >
+                      <defs>
+                        <symbol
+                          id="chevronLeft"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                          ></path>
+                        </symbol>
+                      </defs>
+                      <use xlink:href="#chevronLeft"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    تهران
+      
+                    <svg
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="
+                        width: 24px;
+                        height: 24px;
+                        fill: var(--color-icon-high-emphasis);
+                      "
+                      width="24"
+                      height="24"
+                    >
+                      <defs>
+                        <symbol
+                          id="chevronLeft"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                          ></path>
+                        </symbol>
+                      </defs>
+                      <use xlink:href="#chevronLeft"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    تهران
+      
+                    <svg
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="
+                        width: 24px;
+                        height: 24px;
+                        fill: var(--color-icon-high-emphasis);
+                      "
+                      width="24"
+                      height="24"
+                    >
+                      <defs>
+                        <symbol
+                          id="chevronLeft"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                          ></path>
+                        </symbol>
+                      </defs>
+                      <use xlink:href="#chevronLeft"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    تهران
+      
+                    <svg
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="
+                        width: 24px;
+                        height: 24px;
+                        fill: var(--color-icon-high-emphasis);
+                      "
+                      width="24"
+                      height="24"
+                    >
+                      <defs>
+                        <symbol
+                          id="chevronLeft"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                          ></path>
+                        </symbol>
+                      </defs>
+                      <use xlink:href="#chevronLeft"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    تهران
+      
+                    <svg
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="
+                        width: 24px;
+                        height: 24px;
+                        fill: var(--color-icon-high-emphasis);
+                      "
+                      width="24"
+                      height="24"
+                    >
+                      <defs>
+                        <symbol
+                          id="chevronLeft"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                          ></path>
+                        </symbol>
+                      </defs>
+                      <use xlink:href="#chevronLeft"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    تهران
+      
+                    <svg
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="
+                        width: 24px;
+                        height: 24px;
+                        fill: var(--color-icon-high-emphasis);
+                      "
+                      width="24"
+                      height="24"
+                    >
+                      <defs>
+                        <symbol
+                          id="chevronLeft"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                          ></path>
+                        </symbol>
+                      </defs>
+                      <use xlink:href="#chevronLeft"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    تهران
+      
+                    <svg
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="
+                        width: 24px;
+                        height: 24px;
+                        fill: var(--color-icon-high-emphasis);
+                      "
+                      width="24"
+                      height="24"
+                    >
+                      <defs>
+                        <symbol
+                          id="chevronLeft"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                          ></path>
+                        </symbol>
+                      </defs>
+                      <use xlink:href="#chevronLeft"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    تهران
+      
+                    <svg
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="
+                        width: 24px;
+                        height: 24px;
+                        fill: var(--color-icon-high-emphasis);
+                      "
+                      width="24"
+                      height="24"
+                    >
+                      <defs>
+                        <symbol
+                          id="chevronLeft"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                          ></path>
+                        </symbol>
+                      </defs>
+                      <use xlink:href="#chevronLeft"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    تهران
+      
+                    <svg
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="
+                        width: 24px;
+                        height: 24px;
+                        fill: var(--color-icon-high-emphasis);
+                      "
+                      width="24"
+                      height="24"
+                    >
+                      <defs>
+                        <symbol
+                          id="chevronLeft"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                          ></path>
+                        </symbol>
+                      </defs>
+                      <use xlink:href="#chevronLeft"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    تهران
+      
+                    <svg
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="
+                        width: 24px;
+                        height: 24px;
+                        fill: var(--color-icon-high-emphasis);
+                      "
+                      width="24"
+                      height="24"
+                    >
+                      <defs>
+                        <symbol
+                          id="chevronLeft"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                          ></path>
+                        </symbol>
+                      </defs>
+                      <use xlink:href="#chevronLeft"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    تهران
+      
+                    <svg
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="
+                        width: 24px;
+                        height: 24px;
+                        fill: var(--color-icon-high-emphasis);
+                      "
+                      width="24"
+                      height="24"
+                    >
+                      <defs>
+                        <symbol
+                          id="chevronLeft"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                          ></path>
+                        </symbol>
+                      </defs>
+                      <use xlink:href="#chevronLeft"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    تهران
+      
+                    <svg
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="
+                        width: 24px;
+                        height: 24px;
+                        fill: var(--color-icon-high-emphasis);
+                      "
+                      width="24"
+                      height="24"
+                    >
+                      <defs>
+                        <symbol
+                          id="chevronLeft"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                          ></path>
+                        </symbol>
+                      </defs>
+                      <use xlink:href="#chevronLeft"></use>
+                    </svg>
+                  </li>
+      
+                  
+                  <!-- سایر شهرها -->
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
         <!-- bottom end -->
       </header>
       <!-- header end -->
-      <hr />
       <!-- body start -->
       <div class="body">
         <!-- slider-1 start -->
@@ -994,7 +1630,6 @@
           </div>
         </section>
         <!-- slider-1 end -->
-        <hr />
         <!-- slider-2 start -->
         <section class="slider2">
           <div class="swiper mySwiper2">
@@ -1036,7 +1671,6 @@
           </div>
         </section>
         <!-- slider-2 end -->
-        <hr />
         <!-- slider-3 start -->
         <section class="slider3">
           <div class="swiper mySwiper3">
@@ -1091,33 +1725,41 @@
               </div>
               <div class="swiper-slide">
                 <div class="swiperItems">
-                  <svg
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    xmlns="http://www.w3.org/2000/svg"
-                    style="
-                      width: 32px;
-                      height: 32px;
-                      fill: var(--color-icon-low-emphasis);
-                    "
-                    width="60"
-                    height="60"
-                  >
-                    <defs>
-                      <symbol
-                        id="moreHoriz"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          d="M16 12c0 1.1.9 2 2 2s2-.9 2-2-.9-2-2-2-2 .9-2 2zm-4-2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-8 2c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2z"
-                          clip-rule="evenodd"
-                        ></path>
-                      </symbol>
-                    </defs>
-                    <use xlink:href="#moreHoriz"></use>
-                  </svg>
+                  <img src="./public/images/1.jpg" alt="" />
                   <span>hhhhhhh</span>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="last-slide-slider3">
+                  <div class="svg-slider3">
+                    <svg
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="
+                        width: 32px;
+                        height: 32px;
+                        fill:#a1a3a8;
+                      "
+                      width="32"
+                      height="32"
+                    >
+                      <defs>
+                        <symbol
+                          id="moreHoriz"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M16 12c0 1.1.9 2 2 2s2-.9 2-2-.9-2-2-2-2 .9-2 2zm-4-2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-8 2c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2z"
+                            clip-rule="evenodd"
+                          ></path>
+                        </symbol>
+                      </defs>
+                      <use xlink:href="#moreHoriz"></use>
+                    </svg>
+                  </div>
+                  <span>بیشتر</span>
                 </div>
               </div>
             </div>
@@ -1125,7 +1767,6 @@
           </div>
         </section>
         <!-- slider-3 end -->
-        <hr />
         <!-- slider-4 start -->
         <section class="slider4">
           <div class="swiper mySwiper4">
@@ -1133,6 +1774,13 @@
               <div class="swiper-slide">
                 <div class="slide1-Items">
                   <img src="./public/images/1.jpg" alt="" class="img1" />
+                  <div class="clock">
+                    <div class="time">۱۲</div>
+                    <div class="dot">:</div>
+                    <div class="time">۰۶</div>
+                    <div class="dot">:</div>
+                    <div class="time">۸۴</div>
+                  </div>
                   <img src="./public/images/2.jpg" alt="" class="img2" />
                   <span class="span">
                     <p>مشاهده همه</p>
@@ -1607,7 +2255,35 @@
                   <span class="old-price-span">۲۹,۷۴۹,۰۰۰</span>
                 </div>
               </div>
-              <div class="swiper-slide">Slide last</div>
+              <div class="swiper-slide">
+                <div class="last-slide-slider4">
+                  <div class="svg">
+                    <svg
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="width: 32px; height: 32px; fill: #19bfd3"
+                      width="32"
+                      height="32"
+                    >
+                      <defs>
+                        <symbol
+                          id="arrowLeft"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M11.293 19.707l1.414-1.414L7.414 13H20v-2H7.414l5.293-5.293-1.414-1.414-7 7a1 1 0 000 1.414l7 7z"
+                            clip-rule="evenodd"
+                          ></path>
+                        </symbol>
+                      </defs>
+                      <use xlink:href="#arrowLeft"></use>
+                    </svg>
+                  </div>
+                  <span>مشاهده همه</span>
+                </div>
+              </div>
             </div>
             <div class="swiper-pagination"></div>
             <div class="swiper-button-next"></div>
@@ -1659,9 +2335,8 @@
     <!-- script slider-3 start -->
     <script>
       var slider3 = new Swiper(".mySwiper3", {
-        slidesPerView: 9,
+        slidesPerView: 10,
         spaceBetween: 10,
-        centeredSlides: true,
         pagination: {
           el: ".swiper-pagination",
           clickable: true,

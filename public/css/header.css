@@ -219,101 +219,103 @@ header{
                 } 
             }
         }
-        .city{
-            width: 10%;
+        .city {
+            width: 13%;
             height: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
             font-size: 11px;
-            cursor: pointer; 
-            &.select{
-                display: inline-flex;
+            cursor: pointer;
+            .city-label {
+                display: flex;
+                justify-content: center;
                 align-items: center;
-                padding: 12px 24px;
-                font-size: 14px;
-                background-color:crimson;
-                color: #007aff; /* رنگ برند دیجی‌کالا */
-                border: 1px solid #ddd;
-                border-radius: 4px;
                 cursor: pointer;
-                transition: all 0.3s ease;
-                font-weight: 500;
-                &:hover{
-                    background-color: blue;
-                    border-color: #ccc;
-                }
-            }
-            &.change{
-                display: none;
-                &:checked + .cityy{
-                    display: block;
-                    opacity: 1;
-                }
-            }
-            &.cityy{
-                display: none; /* به طور پیش‌فرض پنجره مودال پنهان است */
-                position: fixed;
-                z-index: 9999;
-                left: 0;
-                top: 0;
-                width: 100%;
-                height: 100%;
-                background-color: pink; /* پس‌زمینه تاریک */
-                opacity: 0;
-                transition: opacity 0.3s ease;
-            }
-            &.city-content{
-                background-color: lime;
-                margin: 10% auto;
-                padding: 24px;
-                width: 300px;
+              }
+          }
+        .checkbox-box {
+            display: none;
+          }
+        .box {
+            display: none;
+            position: fixed;
+            z-index: 7777777777;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.4); 
+            justify-content: center;
+            align-items: center;
+            animation: fadeIn 0.3s ease-out;
+            .box-content {
+                background-color: #fff;
+                padding: 20px;
+                width: 460px;
+                height: 600px;
+                position: relative;
                 border-radius: 8px;
-                text-align: center;
-                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-                transform: scale(0.9);
-                animation: cityyy 0.3s ease forwards;
-                &.top{
-                    font-size: 16px;
-                    color: #333;
-                    margin-bottom: 20px;
-                    font-weight: 500;
-                }
-
-            }
-            &.city-list{
-                list-style-type: none;
-                padding: 0;
-                margin: 0;
-                &.city-item{
-                    padding: 12px 0;
-                    font-size: 14px;
-                    color: #333;
-                    text-align: left;
-                    cursor: pointer;
-                    transition: all 0.3s ease;
-                    border-bottom: 1px solid #f1f1f1;
-                    &:hover{
-                        background-color: orange;
-                        color: #007aff;
-                        padding-left: 10px;
-                    }
-                }
-            }
-            &.close{
-                position: absolute;
-                top: 10px;
-                right: 10px;
-                font-size: 22px;
-                color: #aaa;
-                font-weight: bold;
-                cursor: pointer;
-                transition: color 0.3s ease;
-                &:hover{
-                    color: #f44336;
-                }
-            }
-
-        }  
+                display: flex;
+                flex-direction: column;
+                animation: slideIn 0.5s ease-out;
+                
+                .header{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin: 0;
+                    padding-bottom: 15px;
+                    & p{
+                        margin: 0;
+                        font-size: 16px;
+                      }
+                    .close-btn {
+                        top: 10px;
+                        margin-left: 10px;
+                        font-size: 30px;
+                        font-weight: bold;
+                        cursor: pointer;
+                        color: #333;
+                      }
+                  }
+                .city-list{
+                    overflow-y: scroll;
+                    height: calc(100% - 75px);
+                    padding: 10px 0;
+                    border-top: 1px solid #ccc;
+                    & ul {
+                        list-style: none;
+                        padding: 0;
+                        margin: 0;
+                        & li {
+                            padding: 10px 20;
+                            border-bottom: 1px solid #ccc;
+                            padding-bottom: 10px;
+                            margin-left: 20px;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            margin-top: 10px;
+                            margin-bottom: 10px;
+                            font-size: 14px;
+                            
+                          }
+                        
+                      }
+                      
+                  }
+                
+              }
+          }
+        .city-list li:hover {
+            background-color: #f0f0f0;
+          }
+        .checkbox-box:checked + .box {
+            display: flex; 
+          }
+        .checkbox-box:checked + .box .box-content {
+            animation: slideOut 0.3s ease-in;
+          }
     }
 }

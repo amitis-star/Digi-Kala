@@ -20,3 +20,30 @@
     --Snowflake: #F0F0F1;
 }
 
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(-50%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideOut {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-50%);
+    }
+  }
+
