@@ -608,6 +608,21 @@
     
 
 }
+
+.section10{
+    width: 100%;
+    height: 264px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 20px;
+    & img{
+        width: 660px;
+        height: 263px;
+        border-radius: 16px;
+    }
+}
   
 
 
