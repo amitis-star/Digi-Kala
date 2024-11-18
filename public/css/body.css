@@ -547,8 +547,73 @@
         border-radius: 16px;
     }
 }
+
+.section9{
+    width: 100%;
+    height: 224px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    .part9{
+        width: 1336px;
+        height: inherit;
+        padding: 24px 0;
+        border: 1px solid rgb(222, 222, 222);
+        border-radius: 16px;
+        .title-part9{
+            width: 1334px;
+            height: 44px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+            & p{
+                margin: 0;
+                font-size: 21px;
+                
+            }
+            & svg{
+                width: 24px;
+                height: 24px;
+                margin-left: 10px;
+            }
+        }
+        .slider9{
+            background-color:#e0e0e2;
+            width: 1334px;
+            height: 118px;
+            .swiper {
+                width: 100%;
+                height: 100%;
+                .swiper-wrapper{
+                    .swiper-slide {
+                        text-align: center;
+                        background-color: white;
+                        padding: 4px 16px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        & img {
+                            display: block;
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                          }
+                      }
+                }
+              }
+        }
+    }
+    
+
+}
   
 
+
+  
+
+  
   
 
     
