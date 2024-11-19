@@ -762,96 +762,127 @@
             width: 119px;
             height: 33px;
             margin-right: 40px;
+            background-color: crimson;
         }
         .left-part12{
-            width: 814px;
-            height: 64px;
+            width: 812px;
+            height: 63px;
+            background-color: transparent;
             display: flex;
-            flex-flow: row wrap;
             justify-content: space-between;
             align-items: center;
-            
-            background-color: whitesmoke;
-            .left1-12{
-                background-color: crimson;
+            /*   */
+            .box1-12{
                 display: flex;
                 justify-content: flex-start;
                 align-items: center;
+                width: 273px;
+                height: 100%;
+                background-color: white;
+                border-top-right-radius: 16px;
+                border-bottom-right-radius: 16px;
                 margin-right: 8px;
-                .text-left-12{
+                .text-box1{
+                    width: 106px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    
+                    & svg{
+                        width: 20px;
+                        height: 20px;
+                        margin-right: 8px;
+                    }
+                    & span{
+                        
+                        font-size: 12px;
+                        margin-right: 5px;
+                    }
+                }
+                .img-box1{
+                    width: 168px;
+                    height: 60px;
+                    & img{
+                        width: 168px;
+                        height: 60px;
+                        object-fit: cover;
+                    }
+                }
+            }
+            .box2-12{
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                width: 273px;
+                height: 100%;
+                background-color: white;
+                margin-right: 8px;
+                .text-box2{
+                    width: 106px;
                     display: flex;
                     align-items: center;
                     margin-left: 5px;
                     & svg{
                         width: 20px;
                         height: 20px;
+                        margin-right: 8px;
                     }
                     & span{
                         font-size: 12px;
                         margin-right: 8px;
-    
                     }
                 }
-                & img{
+                .img-box2{
                     width: 168px;
                     height: 60px;
-                    object-fit: cover;
-                }
-            }
-            .left2-12{
-                background-color: violet;
-                display: flex;
-                justify-content: flex-start;
-                align-items: center;
-                margin-right: 8px;
-                .text-left-12{
-                    display: flex;
-                    align-items: center;
-                    margin-left: 5px;
-                    & svg{
-                        width: 20px;
-                        height: 20px;
-                    }
-                    & span{
-                        font-size: 12px;
-                        margin-right: 8px;
-    
+                    & img{
+                        width: 168px;
+                        height: 60px;
+                        object-fit: cover;
                     }
                 }
-                & img{
-                    width: 168px;
-                    height: 60px;
-                    object-fit: cover;
-                }
-            }
-            .left3-12{
-                background-color: blue;
-                display: flex;
-                justify-content: flex-start;
-                align-items: center;
-                margin-right: 8px;
-                .text-left-12{
-                    display: flex;
-                    align-items: center;
-                    margin-left: 5px;
-                    & svg{
-                        width: 20px;
-                        height: 20px;
-                    }
-                    & span{
-                        font-size: 12px;
-                        margin-right: 8px;
-    
-                    }
-                }
-                & img{
-                    width: 168px;
-                    height: 60px;
-                    object-fit: cover;
-                }
-            }
 
+            }
+            .box3-12{
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                width: 256px;
+                height: 100%;
+                background-color: white;
+                border-top-left-radius: 16px;
+                border-bottom-left-radius: 16px;
+                margin-right: 8px;
+                .text-box3{
+                    width: 80px;
+                    display: flex;
+                    align-items: center;
+                    /* margin-left: 5px; */
+                    & svg{
+                        width: 20px;
+                        height: 20px;
+                        margin-right: 8px;
+                    }
+                    & span{
+                        font-size: 12px;
+                        margin-right: 8px;
+                        
+                    }
+                }
+                .img-box3{
+                    width: 168px;
+                    height: 60px;
+                    & img{
+                        width: 168px;
+                        height: 60px;
+                        object-fit: cover;
+                        border-top-left-radius: 16px;
+                border-bottom-left-radius: 16px;
+                    }
+                }
+            }
         }
+        
     }
 }
 
