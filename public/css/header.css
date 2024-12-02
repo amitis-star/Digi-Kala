@@ -220,19 +220,23 @@ header{
             }
         }
         .city {
-            width: 13%;
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 11px;
-            cursor: pointer;
-            .city-label {
+            width: 172px;
+            margin-right: 100px;
+            .city-part{
+                /* width: 13%; */
+                height: 100%;
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                font-size: 11px;
                 cursor: pointer;
-              }
+                .city-label {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+                }
+            }
           }
         .checkbox-box {
             display: none;
