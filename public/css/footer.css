@@ -88,7 +88,7 @@
         align-items: center;
         gap: 3px;
         margin-top: 32px;
-        .box-f{
+        .boxp3-f{
             width: 292px;
             height: 104px;
             padding: 12px 0;
@@ -112,6 +112,160 @@
                 text-align: center;
                 font-size: 11px;
                 color: #3f4064;
+            }
+        }
+    }
+    .part4-f{
+        height: 270px;
+        margin-top: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .section1-p4-f{
+            width: 374px;
+            height: 100%;
+            .title-s1{
+                width: 100%;
+                height: 33px;
+                font-size: 16px;
+                margin-bottom: 8px;
+                color: #3f4064;
+                line-height: 33px;
+            }
+            & a{
+                text-decoration: none;
+                & p{
+                    width: 100%;
+                    height: 30px;
+                    font-size: 14px;
+                    color: #81858b;
+                    margin-bottom: 8px;
+                    
+                }
+            }
+        }
+        .section2-p4-f{
+            width: 390px;
+            height: 100%;
+            .title-s2{
+                width: 100%;
+                height: 33px;
+                font-size: 16px;
+                margin-bottom: 8px;
+                color: #3f4064;
+                line-height: 33px;
+            }
+            & a{
+                text-decoration: none;
+                & p{
+                    width: 100%;
+                    height: 30px;
+                    font-size: 14px;
+                    color: #81858b;
+                    margin-bottom: 8px;
+                    
+                }
+            }
+        }
+        .section3-p4-f{
+            width: 393px;
+            height: 100%;
+            .title-s3{
+                width: 100%;
+                height: 33px;
+                font-size: 16px;
+                margin-bottom: 8px;
+                color: #3f4064;
+                line-height: 33px;
+            }
+            & a{
+                text-decoration: none;
+                & p{
+                    width: 100%;
+                    height: 30px;
+                    font-size: 14px;
+                    color: #81858b;
+                    margin-bottom: 8px;
+                    
+                }
+            }
+        }
+        .section4-p4-f{
+            width: 325px;
+            height: 100%;
+            background-color: lightcoral;
+            .title1-s4{
+                width: 100%;
+                height: 33px;
+                font-size: 16px;
+                margin-bottom: 12px;
+                color: #3f4064;
+                line-height: 33px;
+            }
+            .icon-f{
+                width: 100%;
+                height: 40px;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                & svg{
+                    width: 40px;
+                    height: 40px;
+                    margin-left: 32px;
+                    
+                }
+            }
+            .title2-s4{
+                width: 100%;
+                height: 33px;
+                font-size: 16px;
+                margin-top: 32px;
+                margin-bottom: 12px;
+                color: #3f4064;
+                line-height: 33px;
+            }
+            .lastpart-s4{
+                width: 100%;
+                height: 48px;
+                background-color: yellowgreen;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                .inputemail-f{
+                    
+                    width: 261px;
+                    height: 48px;
+                    padding: 0 8px;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    background-color: #f0f0f1;
+                    border-radius: 8px;
+                    & input{
+                        
+                        width: 245px;
+                        height: 32px;
+                        padding: 0 8px;
+                        outline: none;
+                        font-size: 16px;
+                        border: none;
+                        background-color: transparent;
+                    }
+                    & button{
+                        width: 54px;
+                        height: 48px;
+                        border-radius: 8px;
+                        background-color: #e0e0e2;
+                        color: #f0f0f1;
+                        font-size: 16px;
+                        border: none;
+                        outline: none;
+                        cursor: pointer;
+                        margin-left: 10px;
+                    }
+                }
+                
+
             }
         }
     }
