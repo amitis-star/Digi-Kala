@@ -1164,7 +1164,7 @@
                 line-height: 44px;
             }
         }
-        .row-16{
+        .row1-16{
             width: 1310px;
             height: 242px;
             margin: 0 auto;
@@ -1239,14 +1239,175 @@
                 }
             }
         }
-        .row-16 .item-16:first-child{
+        .row2-16{
+            width: 1310px;
+            height: 242px;
+            margin: 0 auto;
+            display: flex;
+            flex-flow: row;
+            /* justify-content: space-between; */
+            align-items: center;
+            .item-16{
+                width: 218px;
+                height: 242px;
+                padding: 12px 8px;
+                /* background-color: aquamarine; */
+                border: 1px solid rgb(222, 222, 222);
+                border-top: unset;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                .image-16{
+                    width: 201px;
+                    height: 150px;
+                    margin-bottom: 4px;
+                    text-align: center;
+                    & img{
+                        width: 150px;
+                        height: 150px;
+                    }
+                }
+                .middletext-16{
+                    width: 201px;
+                    height: 33px;
+                    display: flex;
+                    flex-flow: row-reverse;
+                    justify-content: space-between;
+                    align-items: center;
+                    .price-16{
+                        & span{
+                            width: 47px;
+                            height: 33px;
+                            font-size: 16px;
+                        }
+                        & svg{
+                            width: 18px;
+                            height: 18px;
+                        }
+                    }
+                    .discount-16{
+                        background-color: crimson;
+                        width: 34px;
+                        height: 20px;
+                        padding: 0 4px;
+                        border-radius: 16px;
+                        margin-left: 20px;
+                        font-size: 12px;
+                        color: white;
+                        text-align: center;
+                        line-height: 20px;  
+                    }
+                }
+                .oldprice-16{
+                    width: 201px;
+                    height: 26px;
+                    padding: 0 0 0 20px;
+                    & span{
+                        width: 40px;
+                        height: 26px;
+                        font-size: 12px;
+                        margin: 0 143px 0 0;
+                        text-decoration: line-through;
+                        color:#c0c2c5; 
+                    }
+                }
+            }
+        }
+        .row3-16{
+            width: 1310px;
+            height: 242px;
+            margin: 0 auto;
+            display: flex;
+            flex-flow: row;
+            /* justify-content: space-between; */
+            align-items: center;
+            .item-16{
+                width: 218px;
+                height: 242px;
+                padding: 12px 8px;
+                /* background-color: aquamarine; */
+                border: 1px solid rgb(222, 222, 222);
+                border-top: unset;
+                border-bottom: unset;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                .image-16{
+                    width: 201px;
+                    height: 150px;
+                    margin-bottom: 4px;
+                    text-align: center;
+                    & img{
+                        width: 150px;
+                        height: 150px;
+                    }
+                }
+                .middletext-16{
+                    width: 201px;
+                    height: 33px;
+                    display: flex;
+                    flex-flow: row-reverse;
+                    justify-content: space-between;
+                    align-items: center;
+                    .price-16{
+                        & span{
+                            width: 47px;
+                            height: 33px;
+                            font-size: 16px;
+                        }
+                        & svg{
+                            width: 18px;
+                            height: 18px;
+                        }
+                    }
+                    .discount-16{
+                        background-color: crimson;
+                        width: 34px;
+                        height: 20px;
+                        padding: 0 4px;
+                        border-radius: 16px;
+                        margin-left: 20px;
+                        font-size: 12px;
+                        color: white;
+                        text-align: center;
+                        line-height: 20px;  
+                    }
+                }
+                .oldprice-16{
+                    width: 201px;
+                    height: 26px;
+                    padding: 0 0 0 20px;
+                    & span{
+                        width: 40px;
+                        height: 26px;
+                        font-size: 12px;
+                        margin: 0 143px 0 0;
+                        text-decoration: line-through;
+                        color:#c0c2c5; 
+                    }
+                }
+            }
+        }
+        .row1-16 .item-16:first-child{
             border-right: unset ; 
         }
-        .row-16 .item-16:last-child{
+        .row1-16 .item-16:last-child{
             border-left: unset;
         }
-        
-
+        .row2-16 .item-16:first-child{
+            border-right: unset;
+        }
+        .row2-16 .item-16:last-child{
+            border-left: unset;
+        }
+        .row3-16 .item-16:first-child{
+            border-right: unset;
+        }
+        .row3-16 .item-16:last-child{
+            border-left: unset;
+        }
     }
 }
 
