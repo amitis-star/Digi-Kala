@@ -81,4 +81,38 @@
         }
 
     }
+    .part3-f{
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3px;
+        margin-top: 32px;
+        .box-f{
+            width: 292px;
+            height: 104px;
+            padding: 12px 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            .image-p3-f{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                & img{
+                    width: 56px;
+                    height: 56px;
+                }
+            }
+            & p{
+                height: 24px;
+                line-height: 24px;
+                text-align: center;
+                font-size: 11px;
+                color: #3f4064;
+            }
+        }
+    }
 }
