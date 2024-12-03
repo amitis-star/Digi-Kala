@@ -4420,13 +4420,42 @@
         <!-- section-19 end -->
       </div>
       <!-- body end -->
+      <!-- footer start -->
+      <div class="main-body-f">
+        <div class="part1-f">
+          <img src="./public/images/logo.svg" alt="" />
+          <div class="btn-up">
+            <span>بازگشت به بالا</span>
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7.70697 15.3469L6.29297 13.9329L11.293 8.93292C11.4805 8.74545 11.7348 8.64014 12 8.64014C12.2651 8.64014 12.5194 8.74545 12.707 8.93292L17.707 13.9329L16.293 15.3469L12 11.0539L7.70697 15.3469Z"
+                fill="#A1A3A8"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="part2-f">
+          <div class="text1-2-f">تلفن پشتیبانی ۶۱۹۳۰۰۰۰ - ۰۲۱</div>
+          <div class="line-between-f">|</div>
+          <div class="text2-2-f">۰۲۱-۹۱۰۰۰۱۰۰</div>
+          <div class="line-between-f">|</div>
+          <div class="text3-2-f">۷ روز هفته، ۲۴ ساعته پاسخگوی شما هستیم</div>
+        </div>
+      </div>
+      <!-- footer end -->
     </div>
     <!-- end -->
     <!-- script tags start-->
     <script type="module" src="/main.js"></script>
     <!-- linking swiper -->
     <script src="./swiper/swiper-bundle.min.js"></script>
-    <!--script section-1 start -->
+    <!--script section-1 body start -->
     <script>
       var slider1 = new Swiper(".mySwiper1", {
         slidesPerView: 13,
@@ -4437,8 +4466,8 @@
         },
       });
     </script>
-    <!--script section-1 end -->
-    <!-- script section-2 start -->
+    <!--script section-1 body end -->
+    <!-- script section-2 body start -->
     <script>
       var slider2 = new Swiper(".mySwiper2", {
         spaceBetween: 30,
@@ -4459,8 +4488,8 @@
         },
       });
     </script>
-    <!-- script section-2 end -->
-    <!-- script section-3 start -->
+    <!-- script section-2 body end -->
+    <!-- script section-3 body start -->
     <script>
       var slider3 = new Swiper(".mySwiper3", {
         slidesPerView: 10,
@@ -4472,8 +4501,8 @@
         },
       });
     </script>
-    <!-- script section-3 end -->
-    <!-- script section-4 start  -->
+    <!-- script section-3 body end -->
+    <!-- script section-4 body start  -->
     <script>
       var slider4 = new Swiper(".mySwiper4", {
         slidesPerView: 7,
@@ -4489,8 +4518,8 @@
         },
       });
     </script>
-    <!-- script section-4 end -->
-    <!-- script section-9 start -->
+    <!-- script section-4 body end -->
+    <!-- script section-9 body start -->
     <script>
       var slider9 = new Swiper(".mySwiper9", {
         slidesPerView: 9,
@@ -4506,8 +4535,8 @@
         },
       });
     </script>
-    <!-- script section-9 end -->
-    <!-- script section-13 start -->
+    <!-- script section-9 body end -->
+    <!-- script section-13 body start -->
     <script>
       var slider13 = new Swiper(".mySwiper13", {
         slidesPerView: 4,
@@ -4527,8 +4556,8 @@
         },
       });
     </script>
-    <!-- script section-13 end -->
-    <!-- script section-17 start -->
+    <!-- script section-13 body end -->
+    <!-- script section-17 body start -->
     <script>
       var slider17 = new Swiper(".mySwiper17", {
         slidesPerView: 4,
@@ -4548,7 +4577,14 @@
         },
       });
     </script>
-    <!-- script section-17 end -->
+    <!-- script section-17 body end -->
+    <!-- script for btn-up-footer start -->
+    <script>
+      document.querySelector('.btn-up span').addEventListener('click', function(){
+        window.scrollTo({ top:0, behavior: 'smooth'});
+      });
+    </script>
+    <!-- script for btn-up-footer end -->
     <!-- script tags finish -->
   </body>
 </html>
