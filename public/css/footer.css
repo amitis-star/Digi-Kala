@@ -331,5 +331,30 @@
             }
         }
     }
-    
+    .part6-f{
+        width: 100%;
+        height: 224px;
+        padding: 32px 0;
+        background-color: yellowgreen;
+        border-top: 5px solid crimson;
+        border-bottom: 5px solid crimson;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .part7-f{
+        width: 100%;
+        height: 89px;
+        padding: 32px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .text-7f{
+            font-size: 11px;
+            color: #81858b;
+            text-align: center;
+            line-height: 89px;
+        }
+        
+    }
 }
