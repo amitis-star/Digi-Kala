@@ -38,15 +38,15 @@
 .part3-s{
     width: 100%;
     height: 360px;
-    padding: 0 16px;
-    padding-left: 18px;
-    padding-right: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
     .bodypart3s{
         width: 1464px;
         height: 344px;
-        margin: 16px 0 0;
-        padding: 0 0 12px;
-        background-image: url(/statics/img/svg/amazing/deal-pattern.svg), linear-gradient(180deg, #e6123d, #c60c31);
+        margin-top: 14px;
+        background-color: crimson;
         border-radius: 8px;
         .top-p3s{
             width: 1464px;
@@ -69,10 +69,156 @@
                 line-height: 2.1;
             }
         }
+        .bottom-p3{
+            background-color: lightyellow;
+            width: 1464px;
+            height: 258px;
+            margin-top: 2px;
+            .sliderp3f{
+                width: 100%;
+                height: 100%;
+                background-color: crimson;
+                padding-left: 20px;
+                padding-right: 20px;
+                .swiper {
+                    width: 100%;
+                    height: 100%;
+                    .swiper-wrapper{
+                        .swiper-slide {
+                            width: 614px !important;
+                            height: 258px;
+                            padding: 8px 16px;
+                            border-radius: 8px;
+                            background-color: white;
+                            .sliderp3f-items{
+                                width: 100%;
+                                height: 100%;
+                                .top-sp3f{
+                                    width: 100%;
+                                    height: 26px;
+                                    margin-bottom: 4px;
+                                    display: flex;
+                                    justify-content: flex-start;
+                                    align-items: center;
+                                    & img{
+                                        width: 116px;
+                                        height: 14px;
+                                    }
+                                }
+                                .bottom-sp3f{
+                                    width: 100%;
+                                    height: 212px;
+                                    display: flex;
+                                    justify-content: space-between;
+                                    align-items: center;
+                                    .right-sp3f{
+                                        width: 200px;
+                                        height: 100%;
+                                    }
+                                    .left-sp3f{
+                                        width: 370px;
+                                        height: inherit;
+                                        .part1-lsp3f{
+                                            width: 100%;
+                                            height: 28px;
+                                            margin-bottom: 4px;
+                                        }
+                                        .part2-lsp3f{
+                                            width: 100%;
+                                            height: 52px;
+                                            font-size: 12px;
+                                            font-weight: 700;
+                                            color: #3f4064;
+                                        }
+                                        .part3-lsp3f{
+                                            width: 100%;
+                                            height: 26px;
+                                            margin-bottom: 4px;
+                                            display: flex;
+                                            justify-content: flex-end; 
+                                            align-items: center;
+                                            gap: 5px;
+                                            & p{
+                                                font-size: 15px;
+                                                font-weight: 500;
+                                                color: #3f4064;
+                                            }
+                                        }
+                                        .part4-lsp3f{
+                                            width: 100%;
+                                            height: 34px;
+                                            display: flex;
+                                            justify-content: space-between;
+                                            align-items: center;
+                                            .p4lsp3f-1{
+                                                width: 34px;
+                                                height: 20px;
+                                                padding: 0 4px;
+                                                border-radius: 16px;
+                                                margin-left: 20px;
+                                                font-size: 12px;
+                                                color: white;
+                                                text-align: center;
+                                                line-height: 20px;  
+                                                font-weight: 600;
+                                                line-height: 20px;
+                                                background-color: crimson;
+                                            }
+                                            .p4lsp3f-2{
+                                                display: flex;
+                                                justify-content: flex-start;
+                                                align-items: center;
+                                                gap: 5px;
+                                            }
+                                        }
+                                        .part5-lsp3f{
+                                            width: 100%;
+                                            height: 26px;
+                                            padding-left: 20px;
+                                            font-size: 12px;
+                                            text-decoration: line-through;
+                                            color: #c0c2c5;
+                                            margin-right: 311.26px;
+                                        }
+                                        .part6-lsp3f{
+                                            width: 100%;
+                                            height: 4px;
+                                            border-radius: 8px;
+                                            background-color: #f0f0f1;
+                                            display: flex;
+                                            justify-content: flex-end;
+                                            align-items: center;
+                                            .line2{
+                                                width: 185px;
+                                                height: inherit;
+                                                border-radius: 8px;
+                                                background-color: crimson;
+                                            }
+                                        }
+                                        .part7-lsp3f{
+                                            width: 100%;
+                                            height: 30px;
+                                            margin-top: 4px;
+                                            display: flex;
+                                            justify-content: flex-end;
+                                            align-items: center;
+                                            & p{
+                                                font-size: 12px;
+                                                color: crimson;
+                                                line-height: 30px;
+                                                font-weight: 600;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                          }
+                    }
+                  }
+            }
+        }
     }
 }
-
-
 
 .red-box{
     width: 48px;
