@@ -223,13 +223,12 @@
     width: 100%;
     height: 206px;
     padding: 20px 0;
-    margin-bottom: 500px;
     .sliderp4s{
         .swiper{
             width: 100%;
             height: 166px;
             .swiper-wrapper{
-                .swiper-slide1p4 {
+                .swiper-slide1p4s {
                     width: 144px;
                     height: 166px;
                     text-align: center;
@@ -302,6 +301,185 @@
     }
 }
 
+.part5-s{
+    width: 100%;
+    height: 442px;
+    padding: 28px 0;
+    background-color: crimson;
+    margin-bottom: 500px;
+    .sliderp5s{
+        .swiper{
+            width: 100%;
+            height: 386px;
+            background-color: crimson;
+            .swiper-wrapper{
+                .swiper-slide{
+                    width: 192px !important;
+                    height: 100%;
+                    margin-left: 30px;
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .itmes-1p5s{
+                        width: 145px;
+                        height: 100%;
+                        margin: 0 32px;
+                        display: flex;
+                        justify-content: center;
+                        flex-flow: column;
+                        align-items: center;
+                        .img1p5s{
+                            width: 120px;
+                            height: 120px;
+                            margin: 0 auto;
+                            & img{
+                                width: 120px;
+                                height: 120px;
+                            }
+                        }
+                        .img2p5s{
+                            width: 145px;
+                            height: 145px;
+                            margin-top: 10px;
+                            & img{
+                                width: 145px;
+                                height: 145px;
+                            }
+                        }
+
+                    }
+                    .slideritems-p5s{
+                        width: 100%;
+                        height: 100%;
+                        padding: 12px 8px;
+                        border-radius: 8px;
+                        background-color: white;
+                        .part1p5s{
+                            width: 100%;
+                            height: 26px;
+                            margin-bottom: 4px;
+                            display: flex;
+                            justify-content: flex-start;
+                            align-items: center;
+                            & img{
+                                width: 116px;
+                                height: 14px;
+                            }
+                        }
+                        .part2p5s{
+                            width: 100%;
+                            height: 150px;
+                            margin-bottom: 4px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            & img{
+                                width: 150px;
+                                height: 100%;
+                            }
+                        }
+                        .part3p5s{
+                            width: 100%;
+                            height: 52px;
+                            text-align: right;
+                            display: flex;
+                            align-items: center;
+                            & p{
+                                font-size: 12px;
+                                font-weight: 700;
+                                line-height: 2.17;
+                                color: #3f4064;
+                            }
+                        }
+                        .part4p5s{
+                            width: 100%;
+                            height: 24px;
+                            margin-bottom: 4px;
+                            display: flex;
+                            justify-content: flex-start;
+                            align-items: center;
+                            & svg{
+                                width: 18px;
+                                height: 18px;
+                                margin-left: 5px;
+                            }
+                            & p{
+                                width: fit-content;
+                                height: 24px;
+                                color: #62666D;
+                                font-size: 11px;
+                                font-weight: 400px;
+                                line-height: 24px;
+                            }
+                        }
+                        .part5p5s{
+                            width: 100%;
+                            height: 34px;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            .right-p5p5s{
+                                width: 34px;
+                                height: 20px;
+                                background-color: crimson;
+                                padding: 0 4px;
+                                border-radius: 16px;
+                                color: white;
+                                font-weight: 600;
+                                font-size: 12px;
+                                line-height: 20px;
+                            }
+                            .left-p5p5s{
+                                width: 142px;
+                                height: 100%;
+                                display: flex;
+                                justify-content: flex-end;
+                                align-items: center;
+                                gap: 5px;
+                                & p{
+                                    font-size: 16px;
+                                    font-weight: 600;
+                                    line-height: 2.1;
+                                    color: #3f4064;
+                                }
+                            }
+                        }
+                        .part6p5s{
+                            width: 176px;
+                            height: 26px;
+                            padding-left: 20px;
+                            & p{
+                                width: 38px;
+                                height: 26px;
+                                margin: 0 118px 0 0;
+                                font-size: 12px;
+                                line-height: 26px;
+                                text-decoration: line-through;
+                                color: #c0c2c5;
+                            }
+                        }
+                        .part7p5s{
+                            width: 100%;
+                            height: 30px;
+                            margin-top: 4px;
+                            display: flex;
+                            justify-content: flex-end;
+                            align-items: center;
+                            & p{
+                                font-size: 12px;
+                                font-weight: 700;
+                                line-height: 30px;
+                                color: crimson;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
 
 
   
