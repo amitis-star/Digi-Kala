@@ -725,7 +725,7 @@
     width: 100%;
     height: 110px;
     margin-top: 30px;
-    margin-bottom: 400px;
+    margin-bottom: 10px;
     padding: 0 16px;
     .bodyp7-s{
         background-color: #f0f0f1e1;
@@ -837,6 +837,132 @@
     }
 }
 
+.part8-s{
+    width: 100%;
+    height: 110px;
+    margin-bottom: 400px;
+    padding: 0 16px;
+    .body8-s{
+        background-color: #f3e1fb;
+        width: 100%;
+        height: 100%;
+        border-radius: 16px;
+        padding: 0 40px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+        & svg{
+            padding: auto 0;
+        }
+        .left-part8s{
+            width: 269px;
+            height: 78px;
+            padding-right: 20px;
+            .p1p8s{
+                width: 100%;
+                height: 36px;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                gap: 8px;
+                & p{
+                    color: #b12ba4;
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+            }
+            .p2p8s{
+                width: 100%;
+                height: 42px;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                .s1p2p8s{
+                    width: 40px;
+                    height: 40px;
+                    padding: 4px 12px;
+                    border-radius: 8px;
+                    background-color: whitesmoke;
+                    display: flex;
+                    justify-content: center;
+                    flex-flow: column;
+                    & span{
+                        width: fit-content;
+                        height: 22px;
+                        color: #941b80;
+                        font-size: 15px;
+                    }
+                    & p{
+                        width: fit-content;
+                        height: 10px;
+                        font-size: 7px;
+                        color: #941b80;
+                    }
+                }
+                .s2p2p8s{
+                    width: 40px;
+                    height: 40px;
+                    margin: 0 12px;
+                    padding: 4px 12px;
+                    border-radius: 8px;
+                    background-color: whitesmoke;
+                    display: flex;
+                    justify-content: center;
+                    flex-flow: column;
+                    & span{
+                        width: fit-content;
+                        height: 22px;
+                        color: #941b80;
+                        font-size: 15px;
+                    }
+                    & p{
+                        width: fit-content;
+                        height: 10px;
+                        font-size: 7px;
+                        color: #941b80;
+                    }
+                }
+                .s3p2p8s{
+                    width: 40px;
+                    height: 40px;
+                    padding: 4px 12px;
+                    border-radius: 8px;
+                    background-color: whitesmoke;
+                    display: flex;
+                    justify-content: center;
+                    flex-flow: column;
+                    & span{
+                        width: fit-content;
+                        height: 22px;
+                        color: #941b80;
+                        font-size: 15px;
+                    }
+                    & p{
+                        width: fit-content;
+                        height: 10px;
+                        font-size: 7px;
+                        color: #941b80;
+                    }
+                }
+                .s4p2p8s{
+                    width: fit-content;
+                    height: 26px;
+                    color: #941b80;
+                    font-size: 12px;
+                    margin-right: 10px;
+                    line-height: 26px;
+                    font-weight: 600;
+                }
+                .s5p2p8s{
+                    margin-right: 4px;
+                    margin-top: 5px;
+                }
+
+            }
+        }
+    }
+}
   
 
 
