@@ -129,7 +129,7 @@ header{
                 width: 100%;
                 height: 100%;
                 .menuItems{
-                   
+                    
                     width: 100%;
                     height: 100%;
                     list-style: none;
@@ -138,18 +138,23 @@ header{
                     align-items: center;
                     font-size: 14px;
                     .itmes{
+                        
                         display: flex;
                         align-items: center;
                         padding: 0px 12px;
                         color: #3f4064;
                         &.test{
                             padding-right: 0px;
+                            background-color: blue;
                             &:hover{
                                 .subMenu{
                                     display: block;
+                                    background-color: lightblue;
                                 }
                             }
+                            
                             .subMenu{
+                                background-color: yellow;
                                 display: none;
                                 width: 80%;
                                 height: 480px;
@@ -186,26 +191,13 @@ header{
                                             fill: crimson;
                                             
                                         }
-                                        .subItems{
-                                            width: 83%;
-                                            height: 100%;
-                                            background-color: pink;
-                                            position: absolute;
-                                            left: 0;
-                                            top: 0;
-                                            display: flex;
-                                            flex-flow: row wrap;
-                                            justify-content:space-between;
-                                            .subitem{
-                                                width: 24%;
-                                                height: 100%;
-                                                background-color: palevioletred;
-                                            }
-                                        }
+                                        
                                     }
                                 }
                             }  
                         }
+
+                        
                         & a{
                             font-size: 12px;
                             text-decoration: none;

@@ -1363,6 +1363,8 @@
         background-color: #FFFFFF;
         border: 1px solid rgb(222, 222, 222);
         position: sticky;
+        right: 0;
+        top: 0;
         .p1fp12s{
             width: 270px;
             height: 72px;
@@ -1676,9 +1678,9 @@
             .itemscards{
                 width: 100%;
                 height: 510px;
-                background-color: #FFFFFF;
                 padding: 12px 8px;
-                border: 1px solid rgb(222, 222, 222);
+                border: 1px solid rgb(236, 236, 236);
+                outline: unset;
                 .p1itemscard-s{
                     width: 100%;
                     height: 26px;
@@ -1827,3 +1829,7 @@
         }
     }
 }
+
+
+
+
