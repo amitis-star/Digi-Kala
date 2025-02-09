@@ -192,18 +192,20 @@ header{
                                 .left-menulist-details{
                                     width: 800px;
                                     height: 100%;
-                                    background-color: white;
-                                    overflow: auto;
+                                    background-color: lightblue;
+                                    
                                     padding-right: 5px;
+                                    /* position: relative; */
                                     .submenuitems-1{
                                         width: 100%;
                                         height: 100%;
+                                        overflow: auto;
                                         /* background-color: lightskyblue; */
                                         .t-smi-1{
                                             width: 100%;
                                             height: 60px;
                                             display: flex;
-                                            justify-items: flex-start;
+                                            justify-content: flex-start;
                                             align-items: center;
                                             gap: 5px;
                                             font-size: 12px;
@@ -216,20 +218,20 @@ header{
                                         .b-smi-1{
                                             width: 100%;
                                             height: 480px;
-                                            background-color: lightgray;
+                                            /* background-color: lightgray; */
                                             display: flex;
                                             justify-items: flex-start;
                                             gap: 5px;
-                                            .column-mobile{
+                                            .column-smi-1{
                                                 width: 194px;
                                                 height: fit-content;
-                                                background-color: lightpink;
-                                                .title-column-mobile{
+                                                /* background-color: lightpink; */
+                                                .title-column-smi{
                                                     display: flex;
                                                     justify-items: flex-end;
                                                     align-items: center;
                                                     margin-bottom: 15px;
-                                                    background-color: lightyellow;
+                                                    /* background-color: lightyellow; */
                                                     cursor: pointer;
                                                     & p{
                                                         color: crimson;
@@ -247,18 +249,88 @@ header{
                                                         font-weight: 700;
                                                     }
                                                 }
-                                                .items-column-mobile{
+                                                .items-column-smi{
                                                     color: #3f4064;
                                                     font-size: 12px;
                                                     margin-bottom: 15px;
                                                     cursor: pointer;
+                                                    &:hover{
+                                                        color: crimson;
+                                                    }
                                                 }
                                         
                                             }
                                         }
                                     }
                                     .submenuitems-2{
-
+                                        width: 800px;
+                                        height: 100%;
+                                        background-color: lightgray;
+                                        position: absolute;
+                                        top: 0;
+                                        /* display: none; */
+                                        /* padding-right: 5px; */
+                                        overflow: auto;
+                                        overflow-y: unset;
+                                        .t-smi-2{
+                                            width: 100%;
+                                            height: 60px;
+                                            display: flex;
+                                            justify-content: flex-start;
+                                            align-items: center;
+                                            gap: 5px;
+                                            font-size: 12px;
+                                            color: #19BFD3;
+                                            font-weight: 700;
+                                            & svg{
+                                                margin-top: 2px;
+                                            }
+                                        }
+                                        .b-smi-2{
+                                            width: 100%;
+                                            height: 480px;
+                                            /* background-color: lightpink; */
+                                            display: flex;
+                                            justify-content: flex-start;
+                                            gap: 5px;
+                                            .column-smi-2{
+                                                width: 194px;
+                                                height: fit-content;
+                                                /* background-color: lightblue; */
+                                                .title-column-smi{
+                                                    display: flex;
+                                                    justify-items: flex-end;
+                                                    align-items: center;
+                                                    margin-bottom: 15px;
+                                                    /* background-color: lightyellow; */
+                                                    cursor: pointer;
+                                                    & p{
+                                                        color: crimson;
+                                                        margin-left: 2px;
+                                                        font-weight: 700;
+                                                        font-size: 20px;
+                                                    }
+                                                    & span{
+                                                        color: black;
+                                                        font-size: 13px;
+                                                        font-weight: 600;
+                                                    }
+                                                    & svg{
+                                                        margin-top: 2px;
+                                                        font-weight: 700;
+                                                    }
+                                                }
+                                                .items-column-smi{
+                                                    color: #3f4064;
+                                                    font-size: 12px;
+                                                    margin-bottom: 15px;
+                                                    cursor: pointer;
+                                                    &:hover{
+                                                        color: crimson;
+                                                    }
+                                                }
+                                            }
+                                        }
                                     }
                                 }
 
