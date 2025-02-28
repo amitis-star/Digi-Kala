@@ -21,6 +21,11 @@
     --Snowflake: #F0F0F1;
 }
 
+/* img.default-img {
+  content: url('path/to/default-image.png');
+} */
+
+
 @keyframes fadeIn {
     from {
       opacity: 0;
@@ -48,3 +53,23 @@
     }
   }
 
+/* img:not([src]), img[src=""]{
+  display: block;
+  object-fit: cover;
+  
+} */
+
+/* .fallback {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  color: #333;
+  font-size: 14px;
+  text-align: center;
+} */
+
+
+/* onerror="this.src='fallback.jpg'; this.onerror=null;" */

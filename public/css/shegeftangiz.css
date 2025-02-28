@@ -1425,11 +1425,65 @@
                     }
                 }
                 .lb3f12s{
-                    & svg{
+                    /* & svg{
                         margin-top: 6px;
                         width: 40px;
                         height: 20px;
-                    }
+                    } */
+                    .switch-filter {
+                        margin-top: 6px;
+                        position: relative;
+                        display: inline-block;
+                        width: 40px;
+                        height: 20px;
+                        & input {
+                          opacity: 0;
+                          width: 0;
+                          height: 0;
+                        } 
+                        .slider {
+                          position: absolute;
+                          cursor: pointer;
+                          top: 0;
+                          left: 0;
+                          right: 0;
+                          bottom: 0;
+                          background-color: white;
+                          border: 2px solid rgb(173, 172, 172);
+                          -webkit-transition: .4s;
+                          transition: .4s;
+                        }
+                        .slider.round {
+                          border-radius: 34px;
+                        }
+                        .slider.round:before {
+                          border-radius: 50%;
+                        }
+                        .slider:before {
+                          position: absolute;
+                          content: "";
+                          height: 11px;
+                          width: 11px;
+                          left: 4px;
+                          bottom: 3px;
+                          background-color: rgb(173, 172, 172);
+                          -webkit-transition: .4s;
+                          transition: .4s;
+                        }
+                        & input:checked + .slider {
+                          background-color: #19bfd3;
+                          
+                        }
+                        & input:focus + .slider {
+                          box-shadow: 0 0 1px #2196F3;
+                        }
+                        & input:checked + .slider:before {
+                          -webkit-transform: translateX(15px);
+                          -ms-transform: translateX(15px);
+                          transform: translateX(15px);
+                          background-color: white;
+                        }
+                      }
                 }
             }
         }
@@ -1461,11 +1515,65 @@
                     }
                 }
                 .lb4f12s{
-                    & svg{
+                    /* & svg{
                         margin-top: 6px;
                         width: 40px;
                         height: 20px;
-                    }
+                    } */
+                    .switch-filter {
+                        margin-top: 6px;
+                        position: relative;
+                        display: inline-block;
+                        width: 40px;
+                        height: 20px;
+                        & input {
+                          opacity: 0;
+                          width: 0;
+                          height: 0;
+                        } 
+                        .slider {
+                          position: absolute;
+                          cursor: pointer;
+                          top: 0;
+                          left: 0;
+                          right: 0;
+                          bottom: 0;
+                          background-color: white;
+                          border: 2px solid rgb(173, 172, 172);
+                          -webkit-transition: .4s;
+                          transition: .4s;
+                        }
+                        .slider.round {
+                          border-radius: 34px;
+                        }
+                        .slider.round:before {
+                          border-radius: 50%;
+                        }
+                        .slider:before {
+                          position: absolute;
+                          content: "";
+                          height: 11px;
+                          width: 11px;
+                          left: 4px;
+                          bottom: 3px;
+                          background-color: rgb(173, 172, 172);
+                          -webkit-transition: .4s;
+                          transition: .4s;
+                        }
+                        & input:checked + .slider {
+                          background-color: #19bfd3;
+                          
+                        }
+                        & input:focus + .slider {
+                          box-shadow: 0 0 1px #2196F3;
+                        }
+                        & input:checked + .slider:before {
+                          -webkit-transform: translateX(15px);
+                          -ms-transform: translateX(15px);
+                          transform: translateX(15px);
+                          background-color: white;
+                        }
+                      }
                 }
             }
         }
@@ -1500,11 +1608,65 @@
                         }
                     }
                     .lb5f12s{
-                        & svg{
+                        /* & svg{
                             margin-top: 6px;
                             width: 40px;
                             height: 20px;
-                        }
+                        } */
+                        .switch-filter {
+                            margin-top: 6px;
+                            position: relative;
+                            display: inline-block;
+                            width: 40px;
+                            height: 20px;
+                            & input {
+                              opacity: 0;
+                              width: 0;
+                              height: 0;
+                            } 
+                            .slider {
+                              position: absolute;
+                              cursor: pointer;
+                              top: 0;
+                              left: 0;
+                              right: 0;
+                              bottom: 0;
+                              background-color: white;
+                              border: 2px solid rgb(173, 172, 172);
+                              -webkit-transition: .4s;
+                              transition: .4s;
+                            }
+                            .slider.round {
+                              border-radius: 34px;
+                            }
+                            .slider.round:before {
+                              border-radius: 50%;
+                            }
+                            .slider:before {
+                              position: absolute;
+                              content: "";
+                              height: 11px;
+                              width: 11px;
+                              left: 4px;
+                              bottom: 3px;
+                              background-color: rgb(173, 172, 172);
+                              -webkit-transition: .4s;
+                              transition: .4s;
+                            }
+                            & input:checked + .slider {
+                              background-color: #19bfd3;
+                              
+                            }
+                            & input:focus + .slider {
+                              box-shadow: 0 0 1px #2196F3;
+                            }
+                            & input:checked + .slider:before {
+                              -webkit-transform: translateX(15px);
+                              -ms-transform: translateX(15px);
+                              transform: translateX(15px);
+                              background-color: white;
+                            }
+                          }
                     }
                 }
                 .b-5f12s{
@@ -1555,10 +1717,65 @@
                     font-weight: 700;
                     line-height: 57px;
                 }
-                & svg{
+                /* & svg{
                     width: 40px;
                     height: 20px;
-                }
+                } */
+                .switch-filter {
+                    margin-top: 6px;
+                    position: relative;
+                    display: inline-block;
+                    width: 40px;
+                    height: 20px;
+                    & input {
+                      opacity: 0;
+                      width: 0;
+                      height: 0;
+                    } 
+                    .slider {
+                      position: absolute;
+                      cursor: pointer;
+                      top: 0;
+                      left: 0;
+                      right: 0;
+                      bottom: 0;
+                      background-color: white;
+                      border: 2px solid rgb(173, 172, 172);
+                      -webkit-transition: .4s;
+                      transition: .4s;
+                    }
+                    .slider.round {
+                      border-radius: 34px;
+                    }
+                    .slider.round:before {
+                      border-radius: 50%;
+                    }
+                    .slider:before {
+                      position: absolute;
+                      content: "";
+                      height: 11px;
+                      width: 11px;
+                      left: 4px;
+                      bottom: 3px;
+                      background-color: rgb(173, 172, 172);
+                      -webkit-transition: .4s;
+                      transition: .4s;
+                    }
+                    & input:checked + .slider {
+                      background-color: #19bfd3;
+                      
+                    }
+                    & input:focus + .slider {
+                      box-shadow: 0 0 1px #2196F3;
+                    }
+                    & input:checked + .slider:before {
+                      -webkit-transform: translateX(15px);
+                      -ms-transform: translateX(15px);
+                      transform: translateX(15px);
+                      background-color: white;
+                     
+                    }
+                  }
             }
         }
         .p8fp12s{
@@ -1592,10 +1809,62 @@
                     display: flex;
                     justify-content: flex-end;
                     align-items: center;
-                    & svg{
+                    /* & svg{
                         width: 32px;
                         height: 20px;
-                    }
+                    } */
+                    .switch-filter {
+                        position: relative;
+                        display: inline-block;
+                        width: 32px;
+                        height: 20px;
+                        & input {
+                          opacity: 0;
+                          width: 0;
+                          height: 0;
+                        } 
+                        .slider {
+                          position: absolute;
+                          cursor: pointer;
+                          top: 0;
+                          left: 0;
+                          right: 0;
+                          bottom: 0;
+                          border: 2px solid rgb(173, 172, 172);
+                          background-color: white;
+                          -webkit-transition: .4s;
+                          transition: .4s;
+                        }
+                        .slider.round {
+                          border-radius: 34px;
+                        }
+                        .slider.round:before {
+                          border-radius: 50%;
+                        }
+                        .slider:before {
+                          position: absolute;
+                          content: "";
+                          height: 11px;
+                          width: 11px;
+                          left: 3px;
+                          bottom: 3px;
+                          background-color: rgb(173, 172, 172);
+                          -webkit-transition: .4s;
+                          transition: .4s;
+                        }
+                        & input:checked + .slider {
+                          background-color: #19bfd3;
+                        }
+                        & input:focus + .slider {
+                          box-shadow: 0 0 1px #2196F3;
+                        }
+                        & input:checked + .slider:before {
+                          -webkit-transform: translateX(13px);
+                          -ms-transform: translateX(13px);
+                          transform: translateX(13px);
+                          background-color: white;
+                        }
+                      }
                 }
             }
 

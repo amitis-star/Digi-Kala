@@ -32,8 +32,8 @@
                     }
                 }
                 .inputContainer{
-                    display: flex;
-                    flex-flow: column;
+                display: flex;
+                flex-flow: column;
                 .error{
                     color: #d32f2f;
                     opacity: 1;
@@ -41,7 +41,6 @@
                 }
                 & label{
                     font-size: 12px;
-                    
                     margin-bottom: 20px;
                     display: inline-block;
                     & span{
@@ -84,6 +83,18 @@
         }  
     }
 }
-.data:focus ~ .error{
+input.data:focus ~ .error{
     opacity: 0 !important;
 }
+
+input.data:not(:placeholder-shown) ~ .error {
+    opacity: 0 !important;   
+}
+
+input.data:focus, input.data:not(:placeholder-shown) {
+    border: 1px solid #19bfd3 !important;
+    color: #19bfd3 !important;
+}
+/* input.data{
+    border-color: #19bfd3 !important;
+} */
