@@ -28,6 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+////////////////////////////////////////////////////////////////////////
 
 const secondMenuItem = document.querySelector('.right-menulist-menutitle .t-menui:nth-child(2)');
 const submenu1 = document.querySelector('.left-menulist-details .submenuitems-1');
@@ -39,13 +40,12 @@ secondMenuItem.addEventListener('mouseenter', () => {
 });
 
 secondMenuItem.addEventListener('mouseleave', () => {
-  // تاخیر کوتاه قبل از بازگرداندن حالت اصلی
   setTimeout(() => {
     if (!submenu2.matches(':hover')) {
       submenu1.style.display = 'block';
       submenu2.style.display = 'none';
     }
-  }, 200); // 200 میلی‌ثانیه؛ می‌توانید این مقدار را تنظیم کنید
+  }, 200);
 });
 
 submenu2.addEventListener('mouseleave', () => {
