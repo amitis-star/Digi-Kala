@@ -1,75 +1,62 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: font1;
-    
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: font1;
 }
 
-.container{
-    width: 100%;
+.container {
+  width: 100%;
 }
 
 @font-face {
-    font-family: font1;
-    src: url(../fonts/IRANYekanWeb.eot);
-    src: url(../fonts/IRANYekanWeb.ttf);
-    src: url(../fonts/IRANYekanWeb.woff);
-    src: url(../fonts/IRANYekanWeb.woff2);
+  font-family: font1;
+  src: url(../fonts/IRANYekanWeb.eot);
+  src: url(../fonts/IRANYekanWeb.ttf);
+  src: url(../fonts/IRANYekanWeb.woff);
+  src: url(../fonts/IRANYekanWeb.woff2);
 }
-:root{
-    --Snowflake: #F0F0F1;
+:root {
+  --Snowflake: #f0f0f1;
 }
-
-/* img.default-img {
-  content: url('path/to/default-image.png');
-} */
-
 
 @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
+  from {
+    opacity: 0;
   }
-  
-  @keyframes slideIn {
-    from {
-      transform: translateY(-50%);
-    }
-    to {
-      transform: translateY(0);
-    }
+  to {
+    opacity: 1;
   }
-  
-  @keyframes slideOut {
-    from {
-      transform: translateY(0);
-    }
-    to {
-      transform: translateY(-50%);
-    }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-50%);
   }
+  to {
+    transform: translateY(0);
+  }
+}
 
-/* img:not([src]), img[src=""]{
-  display: block;
-  object-fit: cover;
-  
-} */
+@keyframes slideOut {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-50%);
+  }
+}
 
-/* .fallback {
-  width: 56px;
-  height: 56px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #f0f0f0;
-  color: #333;
-  font-size: 14px;
-  text-align: center;
-} */
-
-
-/* onerror="this.src='fallback.jpg'; this.onerror=null;" */
+.swiper-button-next,
+.swiper-button-prev {
+  width: 40px !important;
+  height: 40px !important;
+  background-color: #e3e6eb;
+  border-radius: 50%;
+  &::after {
+    text-align: center;
+    font-size: 15px !important;
+    font-weight: 700;
+    color: black;
+  }
+}
